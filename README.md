@@ -16,13 +16,17 @@ Analyze historical sales data across different Walmart stores and departments to
 ---
 
 ## 📁 Project Structure
-Walmart_Analysis/
-├── data/ # Dataset(s)
-├── notebooks/ # Jupyter notebook with EDA
-├── images/ # Visualizations for README
-├── scripts/ # Optional Python scripts
-├── README.md # Project documentation
-├── requirements.txt # Required libraries
+
+```plaintext
+|-- Walmart_Analysis/
+|-- data/                     # Raw data and transformed data
+|-- sql_queries/              # SQL scripts for analysis and queries
+|-- notebooks/                # Jupyter notebooks for Python analysis
+|-- README.md                 # Project documentation
+|-- requirements.txt          # List of required Python libraries
+|-- main.py                   # Main script for loading, cleaning, and processing data
+```
+---
 
 ---
 
