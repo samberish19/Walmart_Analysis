@@ -1,7 +1,28 @@
-# Walmart Data Analysis: SQL + Python Project
+# 🛒 Walmart Sales Data Analysis
 
-## Project Overview
-This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
+This project provides a comprehensive exploratory data analysis (EDA) of Walmart's retail sales data to uncover trends, patterns, and actionable insights for better decision-making.
+
+---
+
+## 📊 Objective
+
+Analyze historical sales data across different Walmart stores and departments to:
+
+- Identify sales trends over time
+- Understand the impact of holidays and external factors like temperature and fuel prices
+- Evaluate performance across store types and departments
+- Provide recommendations to improve business operations
+
+---
+
+## 📁 Project Structure
+Walmart_Analysis/
+├── data/ # Dataset(s)
+├── notebooks/ # Jupyter notebook with EDA
+├── images/ # Visualizations for README
+├── scripts/ # Optional Python scripts
+├── README.md # Project documentation
+├── requirements.txt # Required libraries
 
 ---
 
@@ -68,20 +89,32 @@ This project is an end-to-end data analysis solution designed to extract critica
 
 ---
 
-## Requirements
 
-- **Python 3.8+**
-- **SQL Databases**: MySQL, PostgreSQL
-- **Python Libraries**:
-  - `pandas`, `numpy`, `sqlalchemy`, `mysql-connector-python`
-- **Kaggle API Key** (for data downloading)
+---
 
-## Getting Started
+## 🛠️ Technologies Used
 
-1. Clone the repository:
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+- **Jupyter Notebook**
+- **Git** and **GitHub** for version control
+
+---
+
+## 📈 Sample Visualization
+
+![Sales Trends](images/sales_trends.png)
+
+> *(You can save a relevant plot in `images/` and update the filename above.)*
+
+---
+
+## 🚀 How to Run This Project
+
+1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
-   ```
+   git clone https://github.com/samberish19/Walmart_Analysis.git
+   cd Walmart_Analysis
+
 2. Install Python libraries:
    ```bash
    pip install -r requirements.txt
@@ -118,11 +151,9 @@ Possible extensions to this project:
 
 ---
 
-## License
-
-This project is licensed under the MIT License. 
-
----
+## 👨‍💻 Author
+Samberish19
+📎 GitHub: https://github.com/samberish19
 
 ## Acknowledgments
 
